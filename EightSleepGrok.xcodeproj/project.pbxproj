@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F13AFF16C6862AA2BE75E2C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6127A09C7BCE01F33883B38 /* Models.swift */; };
+		206DAFBADDCC4B9E7834DF02 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A92344409177594D9E44CCF /* PhoneView.swift */; };
+		264C879A5D6506907671C616 /* LevelMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0376E79070C49B6AD7750 /* LevelMath.swift */; };
+		30F7C5AD23135E1D04FBB27C /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577FC59D0753959D497DFB4 /* KeychainStore.swift */; };
+		345DFCCFDD7F0FF5E203E950 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6127A09C7BCE01F33883B38 /* Models.swift */; };
+		347A23071EAA19A0819D34CE /* EightSleepGrokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760D7A258AB93DB75C9BF006 /* EightSleepGrokApp.swift */; };
+		38DEE0CDC25F3A5CB6B32FF9 /* EightSleepWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BE6E27310691D47C8F6C4952 /* EightSleepWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4FA5D134E00255D17B253A53 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EEB6DDD35EFE674DF92BBD /* AppConfig.swift */; };
+		52E0AFAD7C84481539D7CFBA /* EightSleepWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D1A76117AAD1E49A8453915E /* EightSleepWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		75B81881C89CC3AAC8AE11B6 /* EightSleepClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B32660A626F524FEB3C08 /* EightSleepClient.swift */; };
+		8AE0A8DD885854AB84E9A517 /* WatchControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075608C7FB5C441B81F3014D /* WatchControlView.swift */; };
+		8D825A3CB98E5E584B57F8AF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FADA83B5B76265F8EE3EF /* Theme.swift */; };
+		8EDA63624DDE33D4D4D9DF96 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EEB6DDD35EFE674DF92BBD /* AppConfig.swift */; };
+		A56A8CACCF333BE18A04033C /* EightSleepWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C48D5522A73A41D5D8D59C9 /* EightSleepWidget.swift */; };
+		B1666833E23219F5700A0608 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1FADA83B5B76265F8EE3EF /* Theme.swift */; };
+		B172E64E4C6E44CF3B7A8C6E /* EightSleepClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B32660A626F524FEB3C08 /* EightSleepClient.swift */; };
+		B3E513F4CE1297C586BEF0C4 /* LevelMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0376E79070C49B6AD7750 /* LevelMath.swift */; };
+		D53E52B1B839A5DD5B991D49 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF88DDEA43501F91F2D9E65 /* SessionStore.swift */; };
+		D5DD821C4F1F2C818A913742 /* EightSleepWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A7B84C2B162DFA0CA669FF /* EightSleepWatchApp.swift */; };
+		EE1497B676461AE09E21F7BE /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F577FC59D0753959D497DFB4 /* KeychainStore.swift */; };
+		F7A4E8753098D3AEEFBBD8E4 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF88DDEA43501F91F2D9E65 /* SessionStore.swift */; };
+		FDAF013B35C0A5204F5DCD70 /* EightSleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C431B21C143A9BF5FB272EBF /* EightSleepTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		015C814459BF4BCAD173931B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBAB7159AB49E748E7B6A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A47B6883C4321A8748F01ED;
+			remoteInfo = EightSleepGrok;
+		};
+		95F4F4806FA564E60E53577A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBAB7159AB49E748E7B6A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 327F805D7FB7E882A181748B;
+			remoteInfo = EightSleepWatch;
+		};
+		F7C758138C80D6DA55E25263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DBAB7159AB49E748E7B6A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BCFCAECD67AB394FEDE9EA2;
+			remoteInfo = EightSleepWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36993DBE1EF872DD7BFDC101 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				38DEE0CDC25F3A5CB6B32FF9 /* EightSleepWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0316A51312D04A4D10D612 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				52E0AFAD7C84481539D7CFBA /* EightSleepWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		075608C7FB5C441B81F3014D /* WatchControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchControlView.swift; sourceTree = "<group>"; };
+		0A92344409177594D9E44CCF /* PhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		15A611A7889AE81EAB48FCA2 /* EightSleepGrokTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EightSleepGrokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A7B84C2B162DFA0CA669FF /* EightSleepWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightSleepWatchApp.swift; sourceTree = "<group>"; };
+		26EEB6DDD35EFE674DF92BBD /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		2C48D5522A73A41D5D8D59C9 /* EightSleepWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightSleepWidget.swift; sourceTree = "<group>"; };
+		760D7A258AB93DB75C9BF006 /* EightSleepGrokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightSleepGrokApp.swift; sourceTree = "<group>"; };
+		7FF88DDEA43501F91F2D9E65 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		B6127A09C7BCE01F33883B38 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BE6E27310691D47C8F6C4952 /* EightSleepWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EightSleepWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C431B21C143A9BF5FB272EBF /* EightSleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightSleepTests.swift; sourceTree = "<group>"; };
+		D1A76117AAD1E49A8453915E /* EightSleepWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EightSleepWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23B32660A626F524FEB3C08 /* EightSleepClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightSleepClient.swift; sourceTree = "<group>"; };
+		E05CC0617A498C080F82DDF5 /* EightSleepGrok.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = EightSleepGrok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1FADA83B5B76265F8EE3EF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EDD0376E79070C49B6AD7750 /* LevelMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelMath.swift; sourceTree = "<group>"; };
+		F577FC59D0753959D497DFB4 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		26A1BFD3ECCF6DAEF8E4EE02 = {
+			isa = PBXGroup;
+			children = (
+				D4E3A0FC10CBEF448BCEC259 /* App */,
+				A575F6B7BE367AE293753B69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30A84E9A65C44297EF8C7FD4 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				23A7B84C2B162DFA0CA669FF /* EightSleepWatchApp.swift */,
+				075608C7FB5C441B81F3014D /* WatchControlView.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		340AEC8378E4EC8614235900 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				26EEB6DDD35EFE674DF92BBD /* AppConfig.swift */,
+				D23B32660A626F524FEB3C08 /* EightSleepClient.swift */,
+				F577FC59D0753959D497DFB4 /* KeychainStore.swift */,
+				EDD0376E79070C49B6AD7750 /* LevelMath.swift */,
+				B6127A09C7BCE01F33883B38 /* Models.swift */,
+				7FF88DDEA43501F91F2D9E65 /* SessionStore.swift */,
+				EA1FADA83B5B76265F8EE3EF /* Theme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		41C430EC2748E3B010F13538 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C431B21C143A9BF5FB272EBF /* EightSleepTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8EE0541AC6F28AE83B44F47B /* WatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2C48D5522A73A41D5D8D59C9 /* EightSleepWidget.swift */,
+			);
+			path = WatchWidget;
+			sourceTree = "<group>";
+		};
+		A575F6B7BE367AE293753B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05CC0617A498C080F82DDF5 /* EightSleepGrok.app */,
+				15A611A7889AE81EAB48FCA2 /* EightSleepGrokTests.xctest */,
+				D1A76117AAD1E49A8453915E /* EightSleepWatch.app */,
+				BE6E27310691D47C8F6C4952 /* EightSleepWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4E3A0FC10CBEF448BCEC259 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EB46A0A28D4EA2C2F26D247F /* iOS */,
+				340AEC8378E4EC8614235900 /* Shared */,
+				41C430EC2748E3B010F13538 /* Tests */,
+				30A84E9A65C44297EF8C7FD4 /* Watch */,
+				8EE0541AC6F28AE83B44F47B /* WatchWidget */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EB46A0A28D4EA2C2F26D247F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				760D7A258AB93DB75C9BF006 /* EightSleepGrokApp.swift */,
+				0A92344409177594D9E44CCF /* PhoneView.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327F805D7FB7E882A181748B /* EightSleepWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F619471E56442751684D3A5 /* Build configuration list for PBXNativeTarget "EightSleepWatch" */;
+			buildPhases = (
+				8303C4DCAA77A0D940F5257C /* Sources */,
+				36993DBE1EF872DD7BFDC101 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C74E78A18D20BE4C51B652E /* PBXTargetDependency */,
+			);
+			name = EightSleepWatch;
+			packageProductDependencies = (
+			);
+			productName = EightSleepWatch;
+			productReference = D1A76117AAD1E49A8453915E /* EightSleepWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A47B6883C4321A8748F01ED /* EightSleepGrok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0806F0158EC474920FDAC6A1 /* Build configuration list for PBXNativeTarget "EightSleepGrok" */;
+			buildPhases = (
+				458AECCBF7BD6AC46DDA66CB /* Sources */,
+				EB0316A51312D04A4D10D612 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D8F9C2CE07843F442697307 /* PBXTargetDependency */,
+			);
+			name = EightSleepGrok;
+			packageProductDependencies = (
+			);
+			productName = EightSleepGrok;
+			productReference = E05CC0617A498C080F82DDF5 /* EightSleepGrok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BCFCAECD67AB394FEDE9EA2 /* EightSleepWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32D0FB267935831BE0C7825A /* Build configuration list for PBXNativeTarget "EightSleepWidget" */;
+			buildPhases = (
+				110B0C1723F87912C2C94D80 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EightSleepWidget;
+			packageProductDependencies = (
+			);
+			productName = EightSleepWidget;
+			productReference = BE6E27310691D47C8F6C4952 /* EightSleepWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B2281EF8B8954084B23D984D /* EightSleepGrokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C3D3005A758975D9B557D3 /* Build configuration list for PBXNativeTarget "EightSleepGrokTests" */;
+			buildPhases = (
+				0248E3644E77FCE6DC2A7E71 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA956A326A6D7A3A108A53F8 /* PBXTargetDependency */,
+			);
+			name = EightSleepGrokTests;
+			packageProductDependencies = (
+			);
+			productName = EightSleepGrokTests;
+			productReference = 15A611A7889AE81EAB48FCA2 /* EightSleepGrokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DBAB7159AB49E748E7B6A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					327F805D7FB7E882A181748B = {
+						DevelopmentTeam = XPU32D9V4J;
+						ProvisioningStyle = Automatic;
+					};
+					7A47B6883C4321A8748F01ED = {
+						DevelopmentTeam = XPU32D9V4J;
+						ProvisioningStyle = Automatic;
+					};
+					8BCFCAECD67AB394FEDE9EA2 = {
+						DevelopmentTeam = XPU32D9V4J;
+						ProvisioningStyle = Automatic;
+					};
+					B2281EF8B8954084B23D984D = {
+						DevelopmentTeam = XPU32D9V4J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8E5FE7604313EE1104A6EBC7 /* Build configuration list for PBXProject "EightSleepGrok" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 26A1BFD3ECCF6DAEF8E4EE02;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A575F6B7BE367AE293753B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A47B6883C4321A8748F01ED /* EightSleepGrok */,
+				327F805D7FB7E882A181748B /* EightSleepWatch */,
+				8BCFCAECD67AB394FEDE9EA2 /* EightSleepWidget */,
+				B2281EF8B8954084B23D984D /* EightSleepGrokTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0248E3644E77FCE6DC2A7E71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAF013B35C0A5204F5DCD70 /* EightSleepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110B0C1723F87912C2C94D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56A8CACCF333BE18A04033C /* EightSleepWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458AECCBF7BD6AC46DDA66CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA5D134E00255D17B253A53 /* AppConfig.swift in Sources */,
+				B172E64E4C6E44CF3B7A8C6E /* EightSleepClient.swift in Sources */,
+				347A23071EAA19A0819D34CE /* EightSleepGrokApp.swift in Sources */,
+				EE1497B676461AE09E21F7BE /* KeychainStore.swift in Sources */,
+				264C879A5D6506907671C616 /* LevelMath.swift in Sources */,
+				345DFCCFDD7F0FF5E203E950 /* Models.swift in Sources */,
+				206DAFBADDCC4B9E7834DF02 /* PhoneView.swift in Sources */,
+				D53E52B1B839A5DD5B991D49 /* SessionStore.swift in Sources */,
+				8D825A3CB98E5E584B57F8AF /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8303C4DCAA77A0D940F5257C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDA63624DDE33D4D4D9DF96 /* AppConfig.swift in Sources */,
+				75B81881C89CC3AAC8AE11B6 /* EightSleepClient.swift in Sources */,
+				D5DD821C4F1F2C818A913742 /* EightSleepWatchApp.swift in Sources */,
+				30F7C5AD23135E1D04FBB27C /* KeychainStore.swift in Sources */,
+				B3E513F4CE1297C586BEF0C4 /* LevelMath.swift in Sources */,
+				1F13AFF16C6862AA2BE75E2C /* Models.swift in Sources */,
+				F7A4E8753098D3AEEFBBD8E4 /* SessionStore.swift in Sources */,
+				B1666833E23219F5700A0608 /* Theme.swift in Sources */,
+				8AE0A8DD885854AB84E9A517 /* WatchControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D8F9C2CE07843F442697307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 327F805D7FB7E882A181748B /* EightSleepWatch */;
+			targetProxy = 95F4F4806FA564E60E53577A /* PBXContainerItemProxy */;
+		};
+		9C74E78A18D20BE4C51B652E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BCFCAECD67AB394FEDE9EA2 /* EightSleepWidget */;
+			targetProxy = F7C758138C80D6DA55E25263 /* PBXContainerItemProxy */;
+		};
+		DA956A326A6D7A3A108A53F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A47B6883C4321A8748F01ED /* EightSleepGrok */;
+			targetProxy = 015C814459BF4BCAD173931B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0137D42DE22722B42D4FDD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/WatchWidget/EightSleepWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/WatchWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok.watchkitapp.widget;
+				PRODUCT_NAME = EightSleepWidget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		1CBE0BE2AAC54C048D352507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XPU32D9V4J;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		38C70AACBC9F83CA474E9A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/iOS/EightSleepGrok.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok;
+				PRODUCT_NAME = EightSleepGrok;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		399BC554BCDEFA12EAE2A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EightSleepGrok.app/EightSleepGrok";
+			};
+			name = Release;
+		};
+		5C6E01A247E48DEC23DE8D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Watch/EightSleepWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok.watchkitapp;
+				PRODUCT_NAME = EightSleepWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		65CBB2A38F8BFCF2F2243461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/iOS/EightSleepGrok.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok;
+				PRODUCT_NAME = EightSleepGrok;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9CD316D30BFDD9CA7116494C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = App/WatchWidget/EightSleepWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/WatchWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok.watchkitapp.widget;
+				PRODUCT_NAME = EightSleepWidget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E1BB9EFA6EC5CDD706B711E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Watch/EightSleepWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok.watchkitapp;
+				PRODUCT_NAME = EightSleepWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		FC0736C7FF7D798BFC045E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chasemc67.eightsleepwatch.grok.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EightSleepGrok.app/EightSleepGrok";
+			};
+			name = Debug;
+		};
+		FE60AD9B3A0C93D3EB14A067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XPU32D9V4J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0806F0158EC474920FDAC6A1 /* Build configuration list for PBXNativeTarget "EightSleepGrok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C70AACBC9F83CA474E9A1D /* Debug */,
+				65CBB2A38F8BFCF2F2243461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32D0FB267935831BE0C7825A /* Build configuration list for PBXNativeTarget "EightSleepWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD316D30BFDD9CA7116494C /* Debug */,
+				0137D42DE22722B42D4FDD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87C3D3005A758975D9B557D3 /* Build configuration list for PBXNativeTarget "EightSleepGrokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC0736C7FF7D798BFC045E1D /* Debug */,
+				399BC554BCDEFA12EAE2A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E5FE7604313EE1104A6EBC7 /* Build configuration list for PBXProject "EightSleepGrok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60AD9B3A0C93D3EB14A067 /* Debug */,
+				1CBE0BE2AAC54C048D352507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F619471E56442751684D3A5 /* Build configuration list for PBXNativeTarget "EightSleepWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6E01A247E48DEC23DE8D3E /* Debug */,
+				E1BB9EFA6EC5CDD706B711E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DBAB7159AB49E748E7B6A25 /* Project object */;
+}

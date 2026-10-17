@@ -1,0 +1,123 @@
+name: EightSleepGrok
+options:
+  bundleIdPrefix: com.chasemc67.eightsleepwatch
+  deploymentTarget:
+    iOS: "18.0"
+    watchOS: "11.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+  developmentLanguage: en
+settings:
+  base:
+    DEVELOPMENT_TEAM: XPU32D9V4J
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_STRICT_CONCURRENCY: minimal
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  EightSleepGrok:
+    type: application
+    platform: iOS
+    sources:
+      - path: App/iOS
+        excludes:
+          - "Assets.xcassets/**"
+          - Info.plist
+          - "*.entitlements"
+          - PrivacyInfo.xcprivacy
+      - path: App/Shared
+    resources:
+      - path: App/iOS/Assets.xcassets
+      - path: App/iOS/PrivacyInfo.xcprivacy
+    dependencies:
+      - target: EightSleepWatch
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.chasemc67.eightsleepwatch.grok
+        PRODUCT_NAME: EightSleepGrok
+        INFOPLIST_FILE: App/iOS/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: App/iOS/EightSleepGrok.entitlements
+        TARGETED_DEVICE_FAMILY: "1"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  EightSleepWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: App/Watch
+        excludes:
+          - "Assets.xcassets/**"
+          - Info.plist
+          - "*.entitlements"
+          - PrivacyInfo.xcprivacy
+      - path: App/Shared
+    resources:
+      - path: App/Watch/Assets.xcassets
+      - path: App/Watch/PrivacyInfo.xcprivacy
+    dependencies:
+      - target: EightSleepWidget
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.chasemc67.eightsleepwatch.grok.watchkitapp
+        PRODUCT_NAME: EightSleepWatch
+        INFOPLIST_FILE: App/Watch/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: App/Watch/EightSleepWatch.entitlements
+        TARGETED_DEVICE_FAMILY: "4"
+        WATCHOS_DEPLOYMENT_TARGET: "11.0"
+        SKIP_INSTALL: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  EightSleepWidget:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: App/WatchWidget
+        excludes:
+          - Info.plist
+          - "*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.chasemc67.eightsleepwatch.grok.watchkitapp.widget
+        PRODUCT_NAME: EightSleepWidget
+        INFOPLIST_FILE: App/WatchWidget/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: App/WatchWidget/EightSleepWidget.entitlements
+        WATCHOS_DEPLOYMENT_TARGET: "11.0"
+        SKIP_INSTALL: YES
+  EightSleepGrokTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: App/Tests
+    dependencies:
+      - target: EightSleepGrok
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.chasemc67.eightsleepwatch.grok.tests
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/EightSleepGrok.app/EightSleepGrok"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  EightSleepGrok:
+    build:
+      targets:
+        EightSleepGrok: all
+        EightSleepWatch: all
+        EightSleepWidget: all
+        EightSleepGrokTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - EightSleepGrokTests
+    archive:
+      config: Release
